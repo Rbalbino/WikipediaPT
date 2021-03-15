@@ -19,7 +19,7 @@ public class Artigo {
         System.setProperty("webdriver.chrome.driver", "drivers/chrome/89/chromedriver.exe"); // Onde está o chromedriver
         driver = new ChromeDriver();  // Instanciasr o Selenium como Chrome Driver
         driver.manage().window().maximize(); // Maximizare a janela do navegador
-        driver.manage().timeouts().implicitlyWait(60000, TimeUnit.MILLISECONDS); // Define uma espera implicida de 1 min, verificando o carregamento a cada milissegundo
+        driver.manage().timeouts().implicitlyWait(60000, TimeUnit.MILLISECONDS); // oi Define uma espera implicida de 1 min, verificando o carregamento a cada milissegundo
     }
 
     @Test                           //Durante o teste
